@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.anna.money.app",
+    "sha256_cert_fingerprints":
+    ["4A:95:4F:7F:62:48:20:47:78:60:7D:DB:20:02:B3:B4:56:97:C4:24:35:B5:45:E7:24:F4:39:18:32:35:C4:0E"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://stage2.anna.money"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.anna.money.app",
+    "sha256_cert_fingerprints":
+    ["4A:95:4F:7F:62:48:20:47:78:60:7D:DB:20:02:B3:B4:56:97:C4:24:35:B5:45:E7:24:F4:39:18:32:35:C4:0E"]
+  }
+}]
